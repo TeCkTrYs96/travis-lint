@@ -7,6 +7,6 @@ python:
   - "pypy3"  # currently Python 3.6.1,  PyPy 7.1.1-beta0
 # command to install dependencies
 install:
-  - apt-get update
+  - sudo apt install libmicrohttpd-dev libssl-dev cmake build-essen
 # command to run tests
 script: pytest
